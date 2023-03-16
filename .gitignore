@@ -1,0 +1,33 @@
+# Xcode
+#
+# Ignore the following files and folders by default when working with Xcode.
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Exclude Pods directory if using CocoaPods
+Pods/
+
+## Exclude fastlane artifacts
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/**/*.xml
+
+*/.DS_Store
